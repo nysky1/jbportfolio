@@ -1,0 +1,172 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+    background:#F5F5F5;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #2862b7;
+    z-index: 9990;
+}
+
+.name {
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 10px;
+    color: white;
+}
+
+.navbar > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.navbar .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.navbar .links li {
+    display: inline-block;
+    margin-left: 30px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.navbar-inverse .navbar-toggle,.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:active,.navbar-inverse .navbar-toggle:focus {
+    border: none;
+    background:none;
+}
+
+.navbar-toggle{
+    padding-top: 15px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    padding-top: 12px;
+}
+
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:visited {
+    color: white;
+}
+
+nav div ul li:hover,nav div ul a:hover {
+    cursor: pointer;
+    color:white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.coverImage {
+    width:320px;
+}
+
+.headline {
+    font-family: Pacifico;
+    font-size:32px;
+    color:#2862b7;
+}
+
+.headerUnderline {
+    padding-bottom:5px;
+    padding-left: 10px;
+    border-bottom: 2px solid #dcdcdc;
+    color:#2862b7;
+    text-align: left;  
+}
+
+.headerUnderline .noPad {
+    padding-left:0;
+}
+
+header {
+    padding-top: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#portfolio {
+    padding-top: 20px;
+    max-width:920px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolioPiece {
+    padding:20px 10px;
+    text-align: left;
+}
+.portfolioPiece .pTitle {
+    font-size:22px;
+    margin-bottom:15px;
+}
+.portfolioPiece .pBody {
+    font-size: 15px;
+    margin-bottom:15px;
+}
+.pTitle a{
+    color:white;
+}
+.pTitle div{
+    color:white;
+    width:60px;
+    margin-right:5px;
+}
+
+#resume {
+    padding-top: 20px;
+    max-width:920px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bio {
+    margin-top:40px;
+}
+
+.bioBody {
+    padding:10px;
+    line-height: 22px;
+}
+
+img {
+    border: 2px black solid;
+    margin-bottom: 10px;
+    max-width:580px;
+}
+
+@media only screen and (max-width: 768px) {
+    .image {
+        display: block;
+        margin-bottom: 10px;
+    }
+    main.container,header,section.container {
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    img {
+        margin: 0 auto;
+    }
+    header {
+        width:100%;
+    }
+    #portfolio {
+        width: 100%;
+    }
+
+
+    ul.links {
+        padding: 0;
+    }
+}
