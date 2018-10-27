@@ -68,6 +68,12 @@ nav a {
     text-decoration: none;
 }
 
+nav a:focus {
+    color: white;
+    border: solid 2px white;
+    text-decoration: none;
+}
+
 .coverImage {
     width:320px;
 }
